@@ -1,0 +1,244 @@
+body {
+    background-color: #232429;
+    color: #99adfc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    font-size: 18px;
+    text-shadow: 1px 2px 3px #000000;
+    
+
+    
+}
+
+.header {
+    position: relative;
+    background-color: #1b1b1d;
+    border-bottom: 3px solid #6b7eca;
+    display: flex;
+    background-image: url("Fundo.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.arealogin {
+    position: absolute;
+    right: 10px;
+    margin-top: 19px;
+    color: rgb(184, 207, 236);
+    font-size: bold;
+    font-weight: 530;
+    
+}
+
+.arealogin button{
+    align-items: center;
+    border-radius: 70px;
+    color: #000000;
+    background-color: #99adfc;
+    border: 0;
+    width: 150px;
+    height: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+
+h1 {
+    color: #546fdd;
+    text-align: center;
+    font-size: 71px;
+    padding: 10px 0x 10px;
+    text-shadow: 5px 5px 10px #000000;
+    margin: 0;
+    background: none;
+
+    
+    
+}
+
+.rodape {
+    color: #4e588b;
+    position: absolute;
+    left: 40px;
+    bottom: 1px;
+    top: 148px;
+    font-weight: 400;
+
+
+}
+
+h2 {
+    color: #7994ff;
+    text-align: center;
+    padding-top: 32px;
+    font-size: 37px;
+    text-shadow: 5px 5px 10px #020a25;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+a {
+    color: #b5c4ff;
+}
+
+.refs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    
+}
+
+h5 {
+    text-align: center;
+    margin: 72px 0 0px;
+
+}
+
+#local {
+    width: 370px;
+    border-radius: 97px;
+    transition: opacity 0.7s ease-in-out;
+    box-shadow: 2px 2px 120px #000000;
+    
+
+}
+
+#cortes {
+    width: 370px;
+    border-radius: 97px;
+    transition: opacity 0.7s ease-in-out;
+    box-shadow: 2px 2px 120px #000000;
+    
+
+
+}
+
+.aba2 {
+    background-image: url(Fundo2.png);
+    background-size: cover;
+    border-top: 3px solid #6b7eca;
+    
+
+}
+
+
+.icones {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    
+}
+
+#calendario {
+    right: 0px;
+    padding-left: 172px;
+    padding-top: 34px;
+    
+}
+
+#pessoa {
+    left: 0px;
+    padding-left: 110px;
+}
+
+.frases {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 170px;
+    padding-bottom: 13px;
+    padding-top: 0;
+    
+    
+
+}
+
+.aba3 {
+    border-top: 3px solid #6b7eca;
+
+}
+
+.produtoscatalogo {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 120px;
+
+}
+
+#produtos1 {
+    transition: opacity 0.7s ease-in-out;
+    box-shadow: 0px 0px 120px #000000;
+    border-radius: 90px;
+}
+
+#produtos2 {
+    transition: opacity 0.7s ease-in-out;
+    box-shadow: 0px 0px 120px #000000;
+    border-radius: 90px;
+}
+
+#produtos3 {
+    transition: opacity 0.7s ease-in-out;
+    box-shadow: 0px 0px 120px #000000;
+    border-radius: 90px;
+}
+
+.nomesprodutos {
+    display: flex;
+    justify-content: center;
+    gap: 156px;
+
+}
+
+.frasecatalogo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+
+.aba4 {
+    background-image: url(Atendimento.png);
+    background-position: center;
+    background-size: cover;
+    border-top: 3px solid #6b7eca;
+}
+
+.horarioicone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+#horario {
+    margin-bottom: 5px;
+}
+
+.voltar {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.voltar button {
+    background: none;
+    border: 0;
+    cursor: pointer;
+    margin-bottom: 6.5px;
+    margin-top: 0px;
+    top: 0px;
+}
