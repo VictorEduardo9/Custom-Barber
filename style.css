@@ -159,7 +159,8 @@ a {
 }
 
 #h4aba2 {
-    font-size: 20px;
+    font-size: 18px;
+    
 }
 
 
@@ -209,7 +210,7 @@ a {
     justify-content: center;
     align-items: center;
     display: flex;
-    gap: 120px;
+    gap: 10px;
 
 }
 
@@ -329,8 +330,8 @@ a {
 #boas {
     position: absolute;
     padding-bottom: 0;
-    top: 13px;
-    font-size: 18px;
+    top: 16px;
+    font-size: 16px;
     left: 132px;
 
     
@@ -378,7 +379,7 @@ a {
 }
 
 .fraseplataforma {
-    font-size: 8.6px;
+    font-size: 8.2px;
 
 }
 
@@ -449,14 +450,18 @@ a {
 }
 
 #pessoa {
+    position: relative;
     width: 115px;
-   
+    left: 24px;
     
     
 }
 
 #calendario {
+    position: relative;
     width: 95px;
+    margin-right: 25px;
+    bottom: 10.3px;
     
     
     
@@ -464,7 +469,7 @@ a {
 
 .frases {
     font-size: 8px;
-    gap: 65px;
+    gap: 45px;
 
 }
 
@@ -491,7 +496,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 13px;
+    gap: 9px;
     
 }
 
@@ -504,8 +509,8 @@ a {
 
 .nomesprodutos {
     position: absolute;
-    font-size: 10px;
-    gap: 21.3px;
+    font-size: 9px;
+    gap: 25.6px;
     display: flex;
     top: 214px;
 }
