@@ -434,34 +434,37 @@ a {
 
 #h4aba2 {
     margin-top: 0;
-    font-size: 7.5px;
-    width: 400px;
+    font-size: 10.5px;
+    width: 290px;
 }
 
 .icones {
-    position: relative;
     justify-content: center;
     align-items: center;
+    align-content: center;
     display: flex;
-    gap: 8px;
-    right: 11px;
+    gap: 0px;
+    margin-right: 33px;
     
 }
 
 #pessoa {
     width: 115px;
-    margin-left: 20px;
+   
+    
+    
 }
 
 #calendario {
     width: 95px;
-    right: 89px;
+    
+    
     
 }
 
 .frases {
     font-size: 8px;
-    gap: 35px;
+    gap: 65px;
 
 }
 
@@ -490,19 +493,19 @@ a {
     align-items: center;
     gap: 13px;
     
-    
 }
 
 #produtos1, #produtos2 , #produtos3 , #produtos4 , #produtos5 , #produtos6 {
-    width: 120px;
+    width: 110px;
     border-radius: 32px;
+    
 
 }
 
 .nomesprodutos {
     position: absolute;
     font-size: 10px;
-    gap: 24.3px;
+    gap: 21.3px;
     display: flex;
     top: 214px;
 }
@@ -542,13 +545,13 @@ a {
 
 #horariopessoa {
     position: relative;
-    width: 200px;
+    width: 185px;
     left: 20px;
 }
 
 #horario{
     position: relative;
-    width: 230px;
+    width: 210px;
 
 }
 
