@@ -158,6 +158,10 @@ a {
 
 }
 
+#h4aba2 {
+    font-size: 20px;
+}
+
 
 .icones {
     justify-content: center;
@@ -373,7 +377,7 @@ a {
 }
 
 .fraseplataforma {
-    font-size: 9.3px;
+    font-size: 8.6px;
 
 }
 
@@ -429,8 +433,8 @@ a {
 
 #h4aba2 {
     margin-top: 0;
-    font-size: 15px;
-    width: 360px;
+    font-size: 7.5px;
+    width: 390px;
 }
 
 .icones {
@@ -456,7 +460,7 @@ a {
 
 .frases {
     font-size: 8px;
-    gap: 42px;
+    gap: 35px;
 
 }
 
