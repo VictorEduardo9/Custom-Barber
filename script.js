@@ -57,12 +57,23 @@ onAuthStateChanged(auth, (user)=>{
         spanUsuario.textContent = user.displayName
         logingoogle.style.display = "none"
         btnlogout.style.display = "inline-block"
+        
     } else {
         spanUsuario.textContent = ""
         logingoogle.style.display = "inline-block"
         btnlogout.style.display = "none"
     }
 })
+
+const btnentrar = document.getElementById("agendar");
+    btnentrar.addEventListener("click",  () => {
+        const user = auth.currentUser;
+        if (user) {
+            window.location.href = "agendar.html"
+        } else {
+            document.getElementById("logingoogle").click();
+            
+        }});
 
 
 //Pontos de Referência
@@ -154,6 +165,8 @@ setInterval(()=>{
     produtos3.style.opacity = "1";
     }, 800)
 },3000)
+
+
 
 
 

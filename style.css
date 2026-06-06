@@ -18,16 +18,33 @@ body {
     background-image: url("Fundo.jpg");
     background-size: cover;
     background-position: center;
+    height: 150px;
 
 }
+
+#logobarber {
+    position: absolute;
+    left: 23.5px;
+    padding-left: 0;
+    width: 140px;
+    height: auto;
+    
+
+}
+
+#boas {
+    position: absolute;
+}
+
 
 .arealogin {
     position: absolute;
     right: 10px;
-    margin-top: 19px;
+    top: 12px;
     color: rgb(184, 207, 236);
     font-size: bold;
     font-weight: 530;
+    
     
 }
 
@@ -41,30 +58,29 @@ body {
     height: 25px;
     font-weight: bold;
     cursor: pointer;
-    
+}
+
+#usuario {
+    position: relative;
+    top: 0.5px;
+}
+
+#logoutgoogle {
+    width: 70px;
+    height: 19px;
 }
 
 
-h1 {
-    color: #546fdd;
-    text-align: center;
-    font-size: 71px;
-    padding: 10px 0x 10px;
-    text-shadow: 5px 5px 10px #000000;
-    margin: 0;
-    background: none;
-
-    
-    
-}
 
 .rodape {
     color: #4e588b;
     position: absolute;
-    left: 40px;
+    left: 20px;
     bottom: 1px;
-    top: 148px;
+    top: 118px;
     font-weight: 400;
+    font-size: 13px;
+    
 
 
 }
@@ -72,9 +88,11 @@ h1 {
 h2 {
     color: #7994ff;
     text-align: center;
-    padding-top: 32px;
-    font-size: 37px;
+    padding-top: 26px;
+    font-size: 29.1px;
     text-shadow: 5px 5px 10px #020a25;
+    left: 178px;
+    font-weight: 498;
 }
 
 h3 {
@@ -83,25 +101,31 @@ h3 {
 
 h4 {
     text-align: center;
+    
 }
 
 a {
-    color: #b5c4ff;
+    color: rgb(210, 219, 255);
+    
 }
 
 .refs {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    align-items: center;
+    
+    gap: 15px;
 
     
 }
 
-h5 {
+.refs h5 {
+    
     text-align: center;
-    margin: 72px 0 0px;
-
+    
 }
+
+
 
 #local {
     width: 370px;
@@ -123,6 +147,7 @@ h5 {
 }
 
 .aba2 {
+    margin-top: 18px;
     background-image: url(Fundo2.png);
     background-size: cover;
     border-top: 3px solid #6b7eca;
@@ -135,20 +160,24 @@ h5 {
     justify-content: center;
     align-items: center;
     display: flex;
-    
+    gap: 130px;
     
 }
 
 #calendario {
+    position: relative;
     right: 0px;
     padding-left: 172px;
     padding-top: 34px;
+    width: 236px;
+    right: 61px;
     
 }
 
 #pessoa {
     left: 0px;
     padding-left: 110px;
+    width: 260px;
 }
 
 .frases {
@@ -226,7 +255,13 @@ h5 {
 
 #horario {
     margin-bottom: 5px;
+    width: 320px;
 }
+
+#horariopessoa {
+    width: 370px;
+}
+
 
 .voltar {
     display: flex;
@@ -241,4 +276,283 @@ h5 {
     margin-bottom: 6.5px;
     margin-top: 0px;
     top: 0px;
+}
+
+.entrar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.entrar button{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 90px;
+    color: rgb(210, 219, 255);
+    background-color: #4d62b4;
+    border: 0;
+    width: 370px;
+    height: 45px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+@media (max-width: 768px) {
+.header {
+    flex-direction: column;
+    padding-bottom: 0px;
+    height: 130px;
+}
+
+#logobarber {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    padding-bottom: 0;
+    top: 10px;
+    left: 11.2px;
+    width: 110px;
+    height: auto;
+    
+
+}
+
+#boas {
+    position: absolute;
+    padding-bottom: 0;
+    top: 13px;
+    font-size: 18px;
+    left: 132px;
+
+    
+    
+}
+
+.rodape {
+    left: 9px;
+    top: 99px;
+    
+    
+}
+
+.arealogin {
+    position: absolute;
+    right: 10px;
+    margin-top: 12px;
+    color: rgb(184, 207, 236);
+    font-size: 13.4px;
+    font-weight: 530;
+    top: 0px;
+
+    
+}
+
+.arealogin button{
+    align-items: center;
+    border-radius: 70px;
+    color: #000000;
+    background-color: #99adfc;
+    border: 0;
+    width: 120px;
+    height: 13.4px;
+    font-weight: 520px;
+    cursor: pointer;
+    font-size: 11px;
+    
+    
+}
+
+#logoutgoogle {
+    width: 60px;
+
+}
+
+.fraseplataforma {
+    font-size: 9.3px;
+
+}
+
+
+#agendar {
+    width: 260px;
+    font-size: 14.5px;
+    height: 32px;
+}
+
+.suporte {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+
+}
+
+.refs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.ref-item {
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+}
+
+#local , #cortes {
+    width: 160px;
+    border-radius: 59px;
+    
+}
+
+.aba2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#h2aba2 {
+    margin-top: 0;
+    font-size: 22px;
+}
+
+#h4aba2 {
+    margin-top: 0;
+    font-size: 15px;
+    width: 360px;
+}
+
+.icones {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    right: 11px;
+    
+}
+
+#pessoa {
+    width: 115px;
+}
+
+#calendario {
+    width: 95px;
+    right: 76px;
+    
+}
+
+.frases {
+    font-size: 9px;
+    gap: 40px;
+
+}
+
+.somos {
+    position: relative;
+}
+
+.aba3 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+#h2aba3 {
+    margin-top: 0;
+    font-size: 22px;
+}
+
+.produtoscatalogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+    
+}
+
+#produtos1, #produtos2 , #produtos3 , #produtos4 , #produtos5 , #produtos6 {
+    width: 120px;
+    border-radius: 32px;
+
+}
+
+.nomesprodutos {
+    position: absolute;
+    font-size: 10px;
+    width: 4000px;
+    gap: 27.3px;
+    display: flex;
+    top: 214px;
+}
+
+.frasecatalogo {
+    font-size: 13px;
+    width: 360px;
+}
+
+.aba4 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0px;
+
+
+}
+
+
+#h2aba4 {
+    margin-top: 0;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+.horarioicone {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 0px;
+}
+
+#horariopessoa {
+    position: relative;
+    width: 200px;
+    left: 20px;
+}
+
+#horario{
+    position: relative;
+    width: 230px;
+
+}
+
+.voltar {
+    position: relative;
+    bottom: 19px;
+    margin-bottom: 0px;
+    
+}
+
+
+
+
+
 }
