@@ -363,7 +363,7 @@ a {
     background-color: #99adfc;
     border: 0;
     width: 120px;
-    height: 13.4px;
+    height: 18.4px;
     font-weight: 520px;
     cursor: pointer;
     font-size: 11px;
@@ -373,6 +373,7 @@ a {
 
 #logoutgoogle {
     width: 60px;
+    height: 18.4px;
 
 }
 
@@ -454,7 +455,7 @@ a {
 
 #calendario {
     width: 95px;
-    right: 99px;
+    right: 94px;
     
 }
 
@@ -501,14 +502,14 @@ a {
 .nomesprodutos {
     position: absolute;
     font-size: 10px;
-    gap: 27.3px;
+    gap: 24.3px;
     display: flex;
     top: 214px;
 }
 
 .frasecatalogo {
     font-size: 13px;
-    width: 360px;
+    width: 370px;
 }
 
 .aba4 {
