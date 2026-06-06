@@ -567,8 +567,146 @@ a {
     
 }
 
+}
 
 
 
+.header2 {
+    position: relative;
+    background-color: #1b1b1d;
+    border-bottom: 3px solid #6b7eca;
+    display: flex;
+    background-image: url("Fundo.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 71px;
 
 }
+
+
+
+
+#logobarber2 {
+    position: absolute;
+    left: 13px;
+    top: 5px;
+    padding-left: 0;
+    width: 61px;
+    height: auto;
+    
+
+}
+
+.h2agendar {
+   display: flex;
+}
+
+#agendarh2 {
+    color: #7994ff;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 14px;
+    text-shadow: 5px 5px 10px #020a25;
+    margin-left: 84px;
+    font-weight: 371;
+}
+
+.agendar2 {
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+    
+
+}
+
+#agendarhora {
+    margin-top: 0px;
+    padding-top: 11.5px;
+    font-size: 22px;
+    
+}
+
+.agendarform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 7px;
+    
+}
+
+.agendarform select {
+    position: relative;
+    border-radius: 8px;
+    color: #000000;
+    background-color: #99adfc;
+    border: 0;
+    width: 100px;
+    height: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    justify-items: center;
+}
+
+.agendarform #btnagendar {
+    position: relative;
+    border-radius: 70px;
+    color: #ffffff;
+    background-color: #7994ff;
+    border: 0;
+    width: 190px;
+    height: 35px;
+    font-weight: bold;
+    cursor: pointer;
+    justify-items: center;
+    top: 10px;
+}
+
+
+#confirmacao {
+    text-align: center;
+    margin: 15px auto;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.meus-agendamentos {
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.card-agendamento {
+    display: flex;
+    background: #1b1b1d;
+    border: 1px solid #6b7eca;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 10px;
+    text-align: left;
+    justify-content: space-between;
+    
+}
+
+.btncancelar {
+    
+    background: #b44d4d;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 6px 12px;
+    cursor: pointer;
+    height: 43px;
+    margin-top: 7px;
+    font-size: 13px;
+    
+
+    
+    
+}
+
+
+
+

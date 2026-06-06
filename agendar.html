@@ -8,8 +8,69 @@
     <link rel="icon" href="LogoIcon.png" >
 </head>
 <body>
+   <div class="header2">
+        <div class="logoinicio2">
+            <img id="logobarber2" src="Logo.png" alt="Custom Barber">
+        </div>
+        <div class="h2agendar">
+            <h2 id="agendarh2">Agendamentos</h2>
+        </div>
+        <div class="arealogin">
+            <span id="usuario"></span>
+            <button id="logoutgoogle">Sair</button>
+        </div>
+    </div>
+    <div class="agendar2">
+        <h2 id="agendarhora">Agende Seu Horário!</h2>
+        <div class="agendarform">
+            <label>Serviços</label>
+                <select id="servico">
+                  <option id="selecione" value="">Selecione...</option>
+                  <option value="Corte">Corte</option>
+                  <option value="Barba">Barba</option>
+                  <option value="Sobrancelha">Sobrancelha</option>
+                  <option value="Corte e Barba">Corte + Barba</option>
+                  <option value="Corte e Sobrancelha">Corte + Sobrancelha</option>
+                  <option value="Barba e Sobrancelha">Barba + Sobrancelha</option>
+                  <option value="Completo (Cabelo, Barba e Sobrancelha)">Corte + Barba + Sobrancelha</option>
+                </select>
+            <label>Data</label>
+             <select id="data">
+                <option value="">Selecione...</option>
+                <option>Segunda-feira</option>
+                <option>Terça-feira</option>
+                <option>Quarta-feira</option>
+                <option>Quinta-feira</option>
+                <option>Sexta-feira</option>
+                <option>Sábado</option>
+        
+                </select>
+            <label>Horário</label>
+                <select id="horariosel">
+                <option value="">Selecione...</option>
+                <option>09:00</option>
+                <option>10:00</option>
+                <option>11:00</option>
+                <option>12:00</option>
+                <option>13:00</option>
+                <option>14:00</option>
+                <option>15:00</option>
+                <option>16:00</option>
+                <option>17:00</option>
+                <option>18:00</option>
+                <option>19:00</option>
+                </select>
+                <button id="btnagendar">Confirmar Agendamento</button>
+        </div>
+        <div id="confirmacao"></div>
+        <div class="meusagendamentos">
+            <h3>Meus Agendamentos</h3>
+            <div id="listaagendamentos"></div>
+        
+        </div>
 
-
+    </div>
+    
 
 <script type="module" src="agendar.js"></script>
 </body>
