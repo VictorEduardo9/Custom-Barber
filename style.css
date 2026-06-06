@@ -496,7 +496,6 @@ a {
 .nomesprodutos {
     position: absolute;
     font-size: 10px;
-    width: 4000px;
     gap: 27.3px;
     display: flex;
     top: 214px;
