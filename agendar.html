@@ -23,8 +23,10 @@
     <div class="agendar2">
         <h2 id="agendarhora">Agende Seu Horário!</h2>
         <div class="agendarform">
-            <label>Serviços</label>
+            <div class="opcaoservico">
+            <label id="labelserv">Serviços</label>
                 <select id="servico">
+                    <label>Serviços</label>
                   <option id="selecione" value="">Selecione...</option>
                   <option value="Corte">Corte</option>
                   <option value="Barba">Barba</option>
@@ -32,9 +34,11 @@
                   <option value="Corte e Barba">Corte + Barba</option>
                   <option value="Corte e Sobrancelha">Corte + Sobrancelha</option>
                   <option value="Barba e Sobrancelha">Barba + Sobrancelha</option>
-                  <option value="Completo (Cabelo, Barba e Sobrancelha)">Corte + Barba + Sobrancelha</option>
+                  <option value="Cabelo, Barba e Sobrancelha">Corte + Barba + Sobrancelha</option>
                 </select>
-            <label>Data</label>
+            </div>
+            <div class="opcaodata">
+            <label id="labeldata">Data</label>
              <select id="data">
                 <option value="">Selecione...</option>
                 <option>Segunda-feira</option>
@@ -43,9 +47,10 @@
                 <option>Quinta-feira</option>
                 <option>Sexta-feira</option>
                 <option>Sábado</option>
-        
                 </select>
-            <label>Horário</label>
+            </div>
+            <div class="opcaohorario">
+            <label id="labelhora">Horário</label>
                 <select id="horariosel">
                 <option value="">Selecione...</option>
                 <option>09:00</option>
@@ -60,15 +65,17 @@
                 <option>18:00</option>
                 <option>19:00</option>
                 </select>
+            </div>
                 <button id="btnagendar">Confirmar Agendamento</button>
         </div>
         <div id="confirmacao"></div>
         <div class="meusagendamentos">
             <h3>Meus Agendamentos</h3>
             <div id="listaagendamentos"></div>
-        
         </div>
-
+    </div>
+    <div class="telainicio">
+        <img id="inicio" src="VoltarInicio.png" alt="">
     </div>
     
 

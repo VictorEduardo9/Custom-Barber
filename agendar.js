@@ -60,7 +60,7 @@ document.getElementById("btnagendar").addEventListener("click" , async () => {
     const conf = document.getElementById("confirmacao");
 
     if(!servico || !data || !horario){
-        conf.textContent = "⚠️ Preencha todos os campos.";
+        conf.textContent = "Preencha todos os campos. ⚠️";
         conf.style.color = "#fbfdd8";
         return;
     }
@@ -74,7 +74,7 @@ document.getElementById("btnagendar").addEventListener("click" , async () => {
             horario,
             criadoem: Timestamp.now()
         });
-    conf.innerHTML = `✅ Agendado!<br>Serviço: ${servico}<br>Data: ${data}<br>Horário: ${horario}`;
+    conf.innerHTML = `${servico}, ${data} às ${horario} <br> agendado com sucesso! ✅`;
     conf.style.color = "#d8f7db";
 
     document.getElementById("servico").value="";
@@ -98,7 +98,7 @@ async function carregaragendamentos() {
         );
         const snapshot = await getDocs(q)
         if (snapshot.empty) {
-            lista.innerHTML = "<p>Nenhum agendamento encontrado.</p>";
+            lista.innerHTML = "<h6>Nenhum agendamento encontrado. </h6>";
             return;
         }
         lista.innerHTML = "";
@@ -123,5 +123,13 @@ async function carregaragendamentos() {
         lista.innerHTML = "<p>Erro ao carregar agendamentos.</p>";
         console.error(error);
     }
+
+    const redirect = document.getElementById("logobarber2").addEventListener("click" , async() => {
+        window.location.href = "index.html"
+    })
+
+    const voltarparaoinico = document.getElementById("inicio").addEventListener("click" , async() => {
+        window.location.href = "index.html"
+    })
 }
 
