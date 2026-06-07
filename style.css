@@ -677,6 +677,7 @@ a {
     cursor: pointer;
     justify-items: center;
     padding-left: 6.5px;
+    margin-left: 20px;
     
 }
 
@@ -754,12 +755,12 @@ a {
 
 .opcaodata {
     position: relative;
-    right: 6px;
+    right: 18.5px;
 }
 
 .opcaohorario {
     position: relative;
-    right: 6px;
+    right: 7px;
 }
 
 #servico {
@@ -767,11 +768,11 @@ a {
 }
 
 #data {
-    left: 26.3px;
+    left: 38.5px;
 }
 
 #horariosel {
-    left: 15px;
+    left: 16px;
 }
 
 .telainicio {
