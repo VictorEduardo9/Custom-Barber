@@ -755,12 +755,12 @@ a {
 
 .opcaodata {
     position: relative;
-    right: 18.5px;
+    right: 19.5px;
 }
 
 .opcaohorario {
     position: relative;
-    right: 7px;
+    right: 8px;
 }
 
 #servico {
@@ -768,11 +768,11 @@ a {
 }
 
 #data {
-    left: 38.5px;
+    left: 40.5px;
 }
 
 #horariosel {
-    left: 16px;
+    left: 17.5px;
 }
 
 .telainicio {
