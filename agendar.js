@@ -64,7 +64,23 @@ document.getElementById("btnagendar").addEventListener("click" , async () => {
         conf.style.color = "#fbfdd8";
         return;
     }
+
     try {
+        const verificacao = query(
+            collection(db, "agendamentos") , 
+            where("data" , "==", data) , 
+            where("horario" , "==" , horario)
+        );
+        const resultado = await getDocs(verificacao);
+
+        if (!resultado.empty) {
+            conf.textContent = "❌ Este horário já está reservado. Escolha outro.";
+            conf.style.color = "#ff9999";
+            return;
+        }
+
+
+   
         await addDoc(collection(db, "agendamentos"),{
             uid: usuarioAtual.uid,
             nome: usuarioAtual.displayName,

@@ -210,32 +210,32 @@ a {
     justify-content: center;
     align-items: center;
     display: flex;
-    gap: 10px;
+    gap: 13px;
 
 }
 
 #produtos1 {
     transition: opacity 0.7s ease-in-out;
     box-shadow: 0px 0px 120px #000000;
-    border-radius: 90px;
+    border-radius: 60px;
 }
 
 #produtos2 {
     transition: opacity 0.7s ease-in-out;
     box-shadow: 0px 0px 120px #000000;
-    border-radius: 90px;
+    border-radius: 60px;
 }
 
 #produtos3 {
     transition: opacity 0.7s ease-in-out;
     box-shadow: 0px 0px 120px #000000;
-    border-radius: 90px;
+    border-radius: 60px;
 }
 
 .nomesprodutos {
     display: flex;
     justify-content: center;
-    gap: 156px;
+    gap: 51px;
 
 }
 
@@ -580,6 +580,230 @@ a {
     background-image: url("Fundo.jpg");
     background-size: cover;
     background-position: center;
+    height:96px;
+
+}
+
+
+
+
+
+#logobarber2 {
+    position: absolute;
+    left: 15px;
+    top: 0px;
+    padding-left: 0;
+    width: 99px;
+    height: auto;
+    cursor: pointer;
+}
+
+.h2agendar {
+   display: flex;
+}
+
+#agendarh2 {
+    color: #7994ff;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 19px;
+    text-shadow: 5px 5px 10px #020a25;
+    margin-left: 123px;
+    font-weight: 326;
+}
+
+
+
+.agendar2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-size: 23px;
+    padding-bottom: 72px;
+
+}
+
+#agendarhora {
+    margin-top: 0px;
+    padding-top: 11.5px;
+    font-size: 27px;
+    
+}
+
+.agendarform {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 23px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    align-self: center;
+    
+    
+}
+
+.agendarform select {
+    position: relative;
+    border-radius: 8px;
+    color: #181925;
+    background-color: #99adfc;
+    border: 0;
+    width: 280px;
+    height: 32px;
+    font-weight: bold;
+    cursor: pointer;
+    justify-items: center;
+    padding-left: 6.5px;
+    margin-left: 10px;
+    
+}
+
+#btnagendar {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    color: #ffffff;
+    background-color: #7994ff;
+    border: 0;
+    width: 380px;
+    height: 37px;
+    font-weight: bolder;
+    cursor: pointer;  
+    top: 10px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    align-self: center;
+    text-shadow: 3.1px 2.1px 2.8px #020a25;
+    font-size: 14px;
+    
+    
+}
+
+
+#confirmacao {
+    position: relative;
+    text-align: center;
+    top: 12px;
+    font-size: 15px;
+    line-height: 1.8;
+    
+    
+}
+
+.meus-agendamentos {
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.card-agendamento {
+    display: flex;
+    align-items: center;
+    background: #1b1b1d;
+    border: 1px solid #6b7eca;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 0px;
+    text-align: left;
+    justify-content: space-between;
+    font-size: 18px;
+
+    
+}
+
+.btncancelar {
+    
+    background: #b44d4d;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 6px 12px;
+    cursor: pointer;
+    height: 43px;
+    margin-top: 7px;
+    font-size: 13px;
+    
+}
+
+.opcaoservico {
+    position: relative;
+    right: 6px;
+}
+
+.opcaodata {
+    position: relative;
+    right: 23.6px;
+}
+
+.opcaohorario {
+    position: relative;
+    right: 8px;
+}
+
+#servico {
+    left: 12px;
+}
+
+#data {
+    left: 47.8px;
+}
+
+#horariosel {
+    left: 19.2px;
+}
+
+.telainicio {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    bottom: 0px;
+    z-index: 100;
+    border-top: 2px solid #6b7eca;
+    background-image: url("VoltarImagem.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#inicio {
+    position: relative;
+    width: 60px;
+    cursor: pointer;
+    top: 3px;
+    border-radius: 18px;
+    box-shadow: 1px 1px 30px #253047;
+
+}
+
+h6 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-self: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+#h3agenda {
+    font-size: 25px;
+}
+
+
+
+
+@media (max-width: 768px) {
+.header2 {
+    position: relative;
+    background-color: #1b1b1d;
+    border-bottom: 3px solid #6b7eca;
+    display: flex;
+    background-image: url("Fundo.jpg");
+    background-size: cover;
+    background-position: center;
     height: 86px;
 
 }
@@ -627,8 +851,8 @@ a {
 #agendarh2 {
     color: #7994ff;
     text-align: center;
-    margin-top: 5px;
-    font-size: 18px;
+    margin-top: 6px;
+    font-size: 17px;
     text-shadow: 5px 5px 10px #020a25;
     margin-left: 99px;
     font-weight: 326;
@@ -668,16 +892,16 @@ a {
 .agendarform select {
     position: relative;
     border-radius: 8px;
-    color: #000000;
+    color: #181925;
     background-color: #99adfc;
     border: 0;
-    width: 250px;
+    width: 170px;
     height: 29px;
     font-weight: bold;
     cursor: pointer;
     justify-items: center;
     padding-left: 6.5px;
-    margin-left: 20px;
+    margin-left: 5px;
     
 }
 
@@ -685,11 +909,11 @@ a {
     position: relative;
     display: flex;
     flex-direction: column;
-    border-radius: 12px;
+    border-radius: 11.5px;
     color: #ffffff;
     background-color: #7994ff;
     border: 0;
-    width: 230px;
+    width: 242px;
     height: 35px;
     font-weight: bold;
     cursor: pointer;  
@@ -698,6 +922,7 @@ a {
     align-content: center;
     text-align: center;
     align-self: center;
+    text-shadow: 3.1px 2.1px 2.8px #020a25;
     
     
 }
@@ -706,7 +931,7 @@ a {
 #confirmacao {
     position: relative;
     text-align: center;
-    top: 12px;
+    top: 14.5px;
     font-size: 12px;
     line-height: 1.8;
     
@@ -777,24 +1002,24 @@ a {
 
 .telainicio {
     display: flex;
-    position: relative;
+    position: fixed;
     flex-direction: column;
     align-items: center;
-    top: 0;
-    margin-top: 0;
     padding: 0;
     width: 100%;
+    border-top: 2px solid #6b7eca;
+    background-image: url("VoltarImagem.png");
+    background-position: 0px 98px;
+    background-size: cover;
 }
 
 #inicio {
-    position: relative;
-    width: 70px;
+    width: 46px;
     cursor: pointer;
-    margin-bottom: 0px;
-    bottom: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    z-index: 100;
+    top: 3px;
+    border-radius: 18px;
+    box-shadow: 1px 1px 30px #253047;
+    
 
 }
 
@@ -805,6 +1030,13 @@ h6 {
     align-self: center;
     align-items: center;
     font-size: 15px;
+}
+
+#h3agenda {
+    margin-top: 40px;
+    font-size: 20px;
+}
+ 
 }
 
 
